@@ -2,10 +2,10 @@
 source ./autopilot.sh
 
 # Cleanup
-rm -rf ./dreamhouse-sfdx
+rm -rf ./ebikes-lwc
 
 # Demo script
-dprintf "sfdx force:project:create --projectname dreamhouse-sfdx --manifest"
-dprintf "cd dreamhouse-sfdx"
+dprintf "sfdx force:project:create --projectname ebikes-lwc --manifest"
+dprintf "cd ebikes-lwc"
 dprintf "sfdx force:config:set defaultusername=Sandbox1"
 dprintf "code ."

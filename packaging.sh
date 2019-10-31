@@ -2,11 +2,11 @@
 source ./autopilot.sh
 
 # Cleanup
-rm -rf ./dreamhouse-sfdx
+rm -rf ./ebikes-lwc
 
 # Demo script
-dprintf "git clone https://github.com/dreamhouseapp/dreamhouse-sfdx"
-dprintf "cd dreamhouse-sfdx"
+dprintf "git clone https://github.com/trailheadapps/ebikes-lwc"
+dprintf "cd ebikes-lwc"
 dprintfake "sfdx force:package:create -n Dreamhouse -t Unlocked -r force-app"
 sleep 2
 echo sfdx-project.json has been updated.

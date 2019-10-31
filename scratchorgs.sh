@@ -2,11 +2,11 @@
 source ./autopilot.sh
 
 # Cleanup
-rm -rf ./dreamhouse-sfdx
+rm -rf ./ebikes-lwc
 
 # Demo script
-dprintf "git clone https://github.com/dreamhouseapp/dreamhouse-sfdx"
-dprintf "cd ./dreamhouse-sfdx" 
+dprintf "git clone https://github.com/trailheadapps/ebikes-lwc"
+dprintf "cd ./ebikes-lwc" 
 dprintf "code ."
 dprintf "sfdx force:org:create -f config/project-scratch-def.json -s -a mydhdev"
 dprintf "sfdx force:source:push"
